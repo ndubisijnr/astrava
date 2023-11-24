@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "astra-mobile",
-    "slug": "astra-mobile",
+    "name": "Astrava",
+    "slug": "astrava",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/astra_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,16 +15,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jcnerd.astramobile"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/astra_adaptive_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jcnerd.astramobile",
+      "versionCode": 1
     },
+    "scheme":"com.jcnerd.astramobile",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/astra_icon.png"
+    },
+    "owner": "jcnerd",
+    "extra": {
+      "eas": {
+        "projectId": "f1993cf7-c10f-4c44-8361-7edd09467381"
+      }
     }
   }
 }
